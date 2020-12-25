@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('https://image.shutterstock.com/image-photo/decorated-christmas-tree-on-blurred-260nw-1201088539.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  background: wheat;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px wheat, 0 0 20px wheat, 0 0 20px wheat, 0 0 20px wheat;
+}
+.container {
+  color: teal;
+  box-shadow: 0 0 20px teal, 0 0 20px teal, 0 0 20px teal, 0 0 20px teal,
+    0 0 20px teal, 0 0 20px teal, 0 0 20px teal, 0 0 20px teal, 0 0 20px teal;
+  animation: container 7s ease-out infinite normal;
+}
+@keyframes container {
+  0% {
+    transform: scale(0.9);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.3);
+  }
+  60% {
+    transform: scale(1.7);
+  }
+  80% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+h2 {
+  margin-top: 45%;
+  margin-left: 20%;
+  font-family: 'Langar', cursive;
+}
